@@ -1,5 +1,5 @@
 ﻿  <?php 
-              session_start();//we continue the email session
+              session_start();// new sessiom will begging
 
           include("include/db.php");
     if (isset($_POST['login'])) {
